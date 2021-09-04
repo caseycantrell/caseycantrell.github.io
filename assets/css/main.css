@@ -2822,11 +2822,11 @@ input, select, textarea {
 		}
 
 			.wrapper.style1 strong, .wrapper.style1 b {
-				color: #6cd3af;
+				color: #ffffff;
 			}
 
 			.wrapper.style1 h2, .wrapper.style1 h3, .wrapper.style1 h4, .wrapper.style1 h5, .wrapper.style1 h6 {
-				color: #6cd3af;
+				color: #ffffff;
 			}
 
 			.wrapper.style1 hr {
@@ -2842,7 +2842,7 @@ input, select, textarea {
 			}
 
 			.wrapper.style1 header p {
-				color: #6cd3af;
+				color: #ffffff;
 			}
 
 			.wrapper.style1 header.major h2, .wrapper.style1 header.major h3, .wrapper.style1 header.major h4, .wrapper.style1 header.major h5, .wrapper.style1 header.major h6 {
@@ -2850,11 +2850,11 @@ input, select, textarea {
 			}
 
 			.wrapper.style1 header.major p {
-				color: #6cd3af;
+				color: #ffffff;
 			}
 
 			.wrapper.style1 label {
-				color: #6cd3af;
+				color: #ffffff;
 			}
 
 			.wrapper.style1 input[type="text"],
@@ -3814,10 +3814,10 @@ input, select, textarea {
 
 	#main > header {
 		padding: 12em 0 10em 0 ;
-		background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/shahadat-rahman-BfrQnKBulYQ-unsplash.jpg");
-		background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/shahadat-rahman-BfrQnKBulYQ-unsplash.jpg");
-		background-image: -ms-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/shahadat-rahman-BfrQnKBulYQ-unsplash.jpg");
-		background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/shahadat-rahman-BfrQnKBulYQ-unsplash.jpg");
+		background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/pankaj-patel-1IW4HQuauSU-unsplash.jpg");
+		background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/pankaj-patel-1IW4HQuauSU-unsplash.jpg");
+		background-image: -ms-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/pankaj-patel-1IW4HQuauSU-unsplash.jpg");
+		background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/pankaj-patel-1IW4HQuauSU-unsplash.jpg");
 		background-attachment: fixed;
 		background-position: center center;
 		background-repeat: no-repeat;
