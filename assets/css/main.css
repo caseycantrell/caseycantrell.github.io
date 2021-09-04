@@ -2817,7 +2817,7 @@ input, select, textarea {
 		}
 
 		.wrapper.style1 {
-			background-color: #ffffff;
+			background-color: #6cd3af;
 			color: #c8ece9;
 		}
 
@@ -2871,7 +2871,7 @@ input, select, textarea {
 
 				.wrapper.style1 select option {
 					color: #ffffff;
-					background: #9dd7e4;
+					background: #6cd3af;
 				}
 
 			.wrapper.style1 input[type="checkbox"] + label,
@@ -2886,8 +2886,8 @@ input, select, textarea {
 
 			.wrapper.style1 input[type="checkbox"]:checked + label:before,
 			.wrapper.style1 input[type="radio"]:checked + label:before {
-				background: #ffffff;
-				color: #6cd3af;
+				background: #6cd3af;
+				color: #ffffff;
 			}
 
 			.wrapper.style1 ::-webkit-input-placeholder {
