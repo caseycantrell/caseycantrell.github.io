@@ -2871,7 +2871,7 @@ input, select, textarea {
 
 				.wrapper.style1 select option {
 					color: #ffffff;
-					background: #ffffff;
+					background: #6cd3af;
 				}
 
 			.wrapper.style1 input[type="checkbox"] + label,
@@ -2886,7 +2886,7 @@ input, select, textarea {
 
 			.wrapper.style1 input[type="checkbox"]:checked + label:before,
 			.wrapper.style1 input[type="radio"]:checked + label:before {
-				background: #ffffff;
+				background: #6cd3af;
 				color: #ffffff;
 			}
 
