@@ -1858,7 +1858,7 @@ input, select, textarea {
 		input[type="email"]:focus,
 		select:focus,
 		textarea:focus {
-			box-shadow: 0 0 0 2px #0ABAB5;
+			box-shadow: 0 0 0 2px #52b08f;
 		}
 
 	select {
@@ -2486,7 +2486,7 @@ input, select, textarea {
 		input[type="button"].primary,
 		button.primary,
 		.button.primary {
-			background-color: #0ABAB5;
+			background-color: #52b08f;
 			box-shadow: none !important;
 			color: #ffffff !important;
 		}
@@ -2496,7 +2496,7 @@ input, select, textarea {
 			input[type="button"].primary:hover,
 			button.primary:hover,
 			.button.primary:hover {
-				background-color: #0de8e0 !important;
+				background-color: #62d5ad !important;
 			}
 
 			input[type="submit"].primary:active,
@@ -2504,7 +2504,7 @@ input, select, textarea {
 			input[type="button"].primary:active,
 			button.primary:active,
 			.button.primary:active {
-				background-color: #0de8e0 !important;
+				background-color: #62d5ad !important;
 			}
 
 		input[type="submit"].disabled, input[type="submit"]:disabled,
@@ -2603,7 +2603,7 @@ input, select, textarea {
 
 			.features li:before {
 				display: block;
-				color: #0ABAB5;
+				color: #52b08f;
 				position: absolute;
 				left: 1.75em;
 				top: 2.75em;
@@ -2816,7 +2816,7 @@ input, select, textarea {
 		}
 
 		.wrapper.style1 {
-			background-color: #0abab5;
+			background-color: #52b08f;
 			color: #ffffff;
 		}
 
@@ -2885,7 +2885,7 @@ input, select, textarea {
 
 			.wrapper.style1 input[type="checkbox"]:checked + label:before,
 			.wrapper.style1 input[type="radio"]:checked + label:before {
-				background: #0ABAB5;
+				background: #52b08f;
 				color: #ffffff;
 			}
 
@@ -2979,7 +2979,7 @@ input, select, textarea {
 		}
 
 		.wrapper.style3 {
-			background-color: #0ABAB5;
+			background-color: #52b08f;
 			color: #d3d4e4;
 		}
 
@@ -3350,7 +3350,7 @@ input, select, textarea {
 		-ms-transition: -ms-transform 0.5s ease;
 		transition: transform 0.5s ease;
 		-webkit-overflow-scrolling: touch;
-		background: #0ABAB5;
+		background: #52b08f;
 		color: #ffffff;
 		height: 100%;
 		max-width: 80%;
@@ -3609,7 +3609,7 @@ input, select, textarea {
 				-webkit-transition-delay: 0.25s;
 				-ms-transition-delay: 0.25s;
 				transition-delay: 0.25s;
-				background: #0ABAB5;
+				background: #52b08f;
 				content: '';
 				display: block;
 				height: 2px;
