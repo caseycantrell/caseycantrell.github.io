@@ -1,5 +1,7 @@
+/* main blue color - 077ab0 */
+
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Raleway", sans-serif;
   color: #272829;
 }
 
@@ -283,9 +285,9 @@ section {
   content: "";
   position: absolute;
   display: block;
-  width: 50px;
+  width: 350px;
   height: 3px;
-  background: #077ab0;
+  background: #00aeff;
   bottom: 0;
   left: 0;
 }
@@ -614,17 +616,19 @@ section {
   background: #077ab0;
   border-radius: 50%;
   transition: 0.5s;
-  border: 1px solid #077ab0;
+  border: 0px solid #ffffff;
 }
 .services .icon i {
-  color: #fff;
+  color: #ffffff;
   font-size: 24px;
   line-height: 0;
 }
 .services .icon-box:hover .icon {
-  background: #fff;
+  transition: 0.5s;
+  background: #ffffff;
 }
 .services .icon-box:hover .icon i {
+  transition: 0.5s;
   color: #077ab0;
 }
 .services .title {
@@ -739,16 +743,16 @@ section {
 }
 .contact .info i {
   font-size: 20px;
-  color: #077ab0;
+  color: #ffffff;
   float: left;
   width: 44px;
   height: 44px;
-  background: #dff3fc;
+  background: #077ab0;
   display: flex;
   justify-content: center;
   align-items: center;
   border-radius: 50px;
-  transition: all 0.3s ease-in-out;
+  transition: all 0.75s ease-in-out;
 }
 .contact .info h4 {
   padding: 0 0 0 60px;
@@ -784,14 +788,15 @@ section {
   margin-right: 10px;
 }
 .contact .info .social-links a:hover {
-  background: #077ab0;
-  color: #fff;
+  background: #ffffff;
+  color: #077ab0;
 }
 .contact .info .email:hover i,
 .contact .info .address:hover i,
 .contact .info .phone:hover i {
-  background: #077ab0;
-  color: #fff;
+  transition: 0.75s;
+  background: #ffffff;
+  color: #077ab0;
 }
 .contact .php-email-form {
   width: 100%;
