@@ -35,10 +35,10 @@ h6 {
   bottom: 15px;
   z-index: 996;
   background: #077ab0;
-  width: 40px;
-  height: 40px;
+  width: 50px;
+  height: 50px;
   border-radius: 50px;
-  transition: all 0.4s;
+  transition: all 0.8s;
 }
 .back-to-top i {
   font-size: 28px;
@@ -267,7 +267,7 @@ section {
 }
 
 .section-bg {
-  background: #f5f8fd;
+  background: #deeaff85;
 }
 
 .section-title {
@@ -285,7 +285,7 @@ section {
   content: "";
   position: absolute;
   display: block;
-  width: 350px;
+  width: 50px;
   height: 3px;
   background: #00aeff;
   bottom: 0;
@@ -371,7 +371,7 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Akills
+# Skills
 --------------------------------------------------------------*/
 .skills .progress {
   height: 60px;
@@ -399,7 +399,7 @@ section {
 .skills .progress-bar {
   width: 1px;
   height: 10px;
-  transition: 0.9s;
+  transition: 1.5s;
   background-color: #077ab0;
 }
 
@@ -613,23 +613,23 @@ section {
   justify-content: center;
   width: 54px;
   height: 54px;
-  background: #077ab0;
+  background: #ffffff;
   border-radius: 50%;
-  transition: 0.5s;
+  transition: 1s;
   border: 0px solid #ffffff;
 }
 .services .icon i {
-  color: #ffffff;
+  color: #077ab0;
   font-size: 24px;
   line-height: 0;
 }
 .services .icon-box:hover .icon {
-  transition: 0.5s;
-  background: #ffffff;
+  transition: 1s;
+  background: #077ab0;
 }
 .services .icon-box:hover .icon i {
-  transition: 0.5s;
-  color: #077ab0;
+  transition: 1s;
+  color: #ffffff;
 }
 .services .title {
   margin-left: 80px;
@@ -641,7 +641,7 @@ section {
   color: #343a40;
 }
 .services .title a:hover {
-  color: #077ab0;
+  color: #343a40;
 }
 .services .description {
   margin-left: 80px;
@@ -743,16 +743,16 @@ section {
 }
 .contact .info i {
   font-size: 20px;
-  color: #ffffff;
+  color: #077ab0;
   float: left;
   width: 44px;
   height: 44px;
-  background: #077ab0;
+  background: #ffffff;
   display: flex;
   justify-content: center;
   align-items: center;
   border-radius: 50px;
-  transition: all 0.75s ease-in-out;
+  transition: all 0.8s ease-in-out;
 }
 .contact .info h4 {
   padding: 0 0 0 60px;
@@ -784,7 +784,7 @@ section {
   text-align: center;
   width: 36px;
   height: 36px;
-  transition: 0.3s;
+  /* transition: 1s; */
   margin-right: 10px;
 }
 .contact .info .social-links a:hover {
@@ -794,9 +794,9 @@ section {
 .contact .info .email:hover i,
 .contact .info .address:hover i,
 .contact .info .phone:hover i {
-  transition: 0.75s;
-  background: #ffffff;
-  color: #077ab0;
+  /* transition: 1s; */
+  background: #077ab0;
+  color: #ffffff;
 }
 .contact .php-email-form {
   width: 100%;
@@ -949,7 +949,7 @@ section {
   bottom: 0;
   width: 300px;
   z-index: 9999;
-  background: #040b14;
+  background: #ffffff;
 }
 #footer .copyright {
   text-align: center;
