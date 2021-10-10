@@ -374,7 +374,7 @@ section {
 # Skills
 --------------------------------------------------------------*/
 .skills .progress {
-  height: 60px;
+  height: 75px;
   display: block;
   background: none;
   border-radius: 0;
@@ -382,6 +382,7 @@ section {
 .skills .progress .skill {
   padding: 0;
   margin: 0 0 6px 0;
+  font-size: 13px;
   text-transform: uppercase;
   display: block;
   font-weight: 600;
@@ -394,12 +395,12 @@ section {
 }
 .skills .progress-bar-wrap {
   background: #dce8f8;
-  height: 10px;
+  height: 25px;
 }
 .skills .progress-bar {
   width: 1px;
-  height: 10px;
-  transition: 1.5s;
+  height: 25px;
+  transition: 3s;
   background-color: #077ab0;
 }
 
@@ -613,19 +614,19 @@ section {
   justify-content: center;
   width: 54px;
   height: 54px;
-  background: #ffffff;
+  background: #077ab0;
   border-radius: 50%;
   transition: 1s;
-  border: 0px solid #ffffff;
+  border: 0px solid #077ab0;
 }
 .services .icon i {
-  color: #077ab0;
+  color: #ffffff;
   font-size: 24px;
   line-height: 0;
 }
 .services .icon-box:hover .icon {
   transition: 1s;
-  background: #077ab0;
+  background: #00aeff;
 }
 .services .icon-box:hover .icon i {
   transition: 1s;
@@ -645,7 +646,7 @@ section {
 }
 .services .description {
   margin-left: 80px;
-  line-height: 24px;
+  line-height: 36px;
   font-size: 14px;
 }
 
