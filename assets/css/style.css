@@ -11,8 +11,9 @@ a {
 }
 
 a:hover {
-  color: #37b3ed;
+  color: #00aeff;
   text-decoration: none;
+  transition: 1s;
 }
 
 h1,
@@ -533,7 +534,7 @@ section {
   background: rgba(20, 157, 221, 0.95);
 }
 .portfolio .portfolio-wrap .portfolio-links a + a {
-  border-left: 1px solid #37b3ed;
+  border-left: 1px solid #00aeff;
 }
 .portfolio .portfolio-wrap:hover::before {
   top: 0;
@@ -744,16 +745,16 @@ section {
 }
 .contact .info i {
   font-size: 20px;
-  color: #077ab0;
+  color: #ffffff;
   float: left;
   width: 44px;
   height: 44px;
-  background: #ffffff;
+  background: #077ab0;
   display: flex;
   justify-content: center;
   align-items: center;
   border-radius: 50px;
-  transition: all 0.8s ease-in-out;
+  transition: all 1s ease-in-out;
 }
 .contact .info h4 {
   padding: 0 0 0 60px;
@@ -785,18 +786,18 @@ section {
   text-align: center;
   width: 36px;
   height: 36px;
-  /* transition: 1s; */
+  transition: 1s;
   margin-right: 10px;
 }
 .contact .info .social-links a:hover {
-  background: #ffffff;
-  color: #077ab0;
+  background: #00aeff;
+  color: #ffffff;
 }
 .contact .info .email:hover i,
 .contact .info .address:hover i,
 .contact .info .phone:hover i {
   /* transition: 1s; */
-  background: #077ab0;
+  background: #00aeff;
   color: #ffffff;
 }
 .contact .php-email-form {
@@ -879,7 +880,7 @@ section {
   border-radius: 4px;
 }
 .contact .php-email-form button[type="submit"]:hover {
-  background: #37b3ed;
+  background: #00aeff;
 }
 @-webkit-keyframes animate-loading {
   0% {
