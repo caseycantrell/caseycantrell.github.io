@@ -407,9 +407,7 @@ section {
 
 .skills .card {
   background-color: #077ab0;
-  display: flex;
-  flex-direction: column;
-  border-radius: 15px;
+  border-radius: 10px;
 }
 
 .skills-container {
@@ -418,20 +416,20 @@ section {
   gap: 10px;
 }
 
-.skills-container .card i {
+.skills-container i {
   color: white;
   float: left;
-  align-items: center;
-  size: 200px;
 }
 
-.skills .card p {
-  margin: 0;
-  align-items: center;
-  text-align: center;
+.skills .card-body p {
   font-weight: bold;
+  align-items: center;
 }
 
+.skills .card-body {
+  display: flex;
+  justify-content: space-between;
+}
 
 
 
