@@ -405,32 +405,28 @@ section {
   background-color: #077ab0;
 } */
 
-.skills .card {
+.skills .card-body {
   background-color: #077ab0;
-  border-radius: 10px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
 }
 
-.skills-container {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  gap: 10px;
-}
-
-.skills-container i {
+.skills .card-body  i{
   color: white;
   float: left;
 }
 
 .skills .card-body p {
+  color: white;
   font-weight: bold;
   align-items: center;
 }
 
-.skills .card-body {
-  display: flex;
-  justify-content: space-between;
-}
 
+#skills-cards {
+  
+}
 
 
 /*--------------------------------------------------------------
