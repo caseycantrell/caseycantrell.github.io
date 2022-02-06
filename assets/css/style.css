@@ -374,7 +374,7 @@ section {
 /*--------------------------------------------------------------
 # Skills
 --------------------------------------------------------------*/
-.skills .progress {
+/* .skills .progress {
   height: 75px;
   display: block;
   background: none;
@@ -403,7 +403,37 @@ section {
   height: 25px;
   transition: 3s;
   background-color: #077ab0;
+} */
+
+.skills .card {
+  background-color: #077ab0;
+  display: flex;
+  flex-direction: column;
+  border-radius: 15px;
 }
+
+.skills-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 10px;
+}
+
+.skills-container .card i {
+  color: white;
+  float: left;
+  align-items: center;
+  size: 200px;
+}
+
+.skills .card p {
+  margin: 0;
+  align-items: center;
+  text-align: center;
+  font-weight: bold;
+}
+
+
+
 
 /*--------------------------------------------------------------
 # Resume
