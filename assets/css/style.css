@@ -267,6 +267,10 @@ section {
   overflow: hidden;
 }
 
+#services {
+  padding-top: 0px;
+}
+
 .section-bg {
   background: #deeaff85;
 }
@@ -409,9 +413,14 @@ section {
   transform: scale(1.2);
 }
 
+
 /*--------------------------------------------------------------
 # Portfolio
 --------------------------------------------------------------*/
+.portfolio {
+  background-color: white;
+}
+
 .portfolio .portfolio-item {
   margin-bottom: 30px;
 }
@@ -480,13 +489,12 @@ section {
   transition: 0.3s;
   width: 50%;
   padding: 5px;
+  border: 1.75px solid black;
 }
 .portfolio .portfolio-wrap .portfolio-links a:hover {
-  background: rgba(20, 157, 221, 0.95);
+  background: #2eafec;
 }
-.portfolio .portfolio-wrap .portfolio-links a + a {
-  border-left: 1px solid #00aeff;
-}
+
 .portfolio .portfolio-wrap:hover::before {
   top: 0;
   left: 0;
@@ -501,7 +509,7 @@ section {
 
 .portfolio-card {
   background-color: #077ab0;
-  border: 1px solid;
+  border: 2px solid;
   height: 350px;
   text-align: center;
 }
@@ -544,11 +552,6 @@ section {
   position: absolute;
   bottom: 35px;
   right: 33%;
-}
-
-.dummy-text {
-  padding: 3px;
-  color: #077ab0;
 }
 
 /*--------------------------------------------------------------
@@ -608,6 +611,10 @@ section {
 /*--------------------------------------------------------------
 # Services
 --------------------------------------------------------------*/
+.services {
+  background-color: #deeaff85;
+}
+
 .services .icon-box {
   margin-bottom: 20px;
 }
@@ -739,6 +746,7 @@ section {
 --------------------------------------------------------------*/
 .contact {
   padding-bottom: 130px;
+  background-color: #deeaff85;
 }
 .contact .info {
   padding: 30px;
