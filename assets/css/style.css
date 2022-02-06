@@ -410,22 +410,20 @@ section {
   border-radius: 8px;
   display: flex;
   justify-content: space-between;
-}
-
-.skills .card-body  i{
-  color: white;
-  float: left;
-}
-
-.skills .card-body p {
-  color: white;
-  font-weight: bold;
   align-items: center;
 }
 
+.skills .card-body  i{
+  color: #76d4ff;
+}
 
-#skills-cards {
-  
+.skills .card-body p {
+  color: #fff;
+  font-weight: bold;
+  align-items: center;
+  text-align: center;
+  padding-right: 10px;
+  font-size: 18px;
 }
 
 
