@@ -513,16 +513,16 @@ section {
 
 .portfolio-title {
   color: white;
-  font-size: 30px;
+  font-size: 34px;
   font-weight: bold;
-  padding-top: 32px;
+  padding-top: 42px;
   padding-inline: 15px;
 }
 
 .portfolio-text {
   color: rgb(156, 156, 156);
   font-weight: bold;
-  padding-top: 17px;
+  padding-top: 10px;
   padding-left: 30px;
   padding-right: 30px;
 }
@@ -531,7 +531,7 @@ section {
   color: #4fc7ff;
   padding-bottom: 10px;
   position: absolute;
-  bottom: 35px;
+  bottom: 45px;
   left: 43%;
 }
 
@@ -539,7 +539,7 @@ section {
   color: #4fc7ff;
   padding-bottom: 10px;
   position: absolute;
-  bottom: 35px;
+  bottom: 45px;
   left: 33%;
 }
 
@@ -547,7 +547,7 @@ section {
   color: #4fc7ff;
   padding-bottom: 10px;
   position: absolute;
-  bottom: 35px;
+  bottom: 45px;
   right: 33%;
 }
 
