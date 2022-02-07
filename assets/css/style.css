@@ -331,6 +331,9 @@ section {
   margin-bottom: 0;
 }
 
+#profile-pic {
+  border-radius: 10px;
+}
 /*--------------------------------------------------------------
 # Facts
 --------------------------------------------------------------*/
@@ -396,7 +399,7 @@ section {
   align-items: center;
   text-align: center;
   padding-right: 10px;
-  font-size: 18px;
+  font-size: 19px;
 }
 
 .skills .card-body  i {
@@ -482,7 +485,7 @@ section {
   color: #fff;
   font-size: 16px;
   text-align: center;
-  background: rgba(20, 157, 221, 0.75);
+  background: #077ab0;
   transition: 0.3s;
   width: 50%;
   padding: 5px;
@@ -532,7 +535,7 @@ section {
   padding-bottom: 10px;
   position: absolute;
   bottom: 45px;
-  left: 43%;
+  left: 42%;
 }
 
 #portfolio-icon-left {
