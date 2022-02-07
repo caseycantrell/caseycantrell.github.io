@@ -603,7 +603,7 @@ section {
 
 #services-icons {
   padding-left: 80px;
-  /* padding-bottom: 30px; */
+  margin-left: 0px;
   display: flex;
   justify-content: start;
   align-items: center;
