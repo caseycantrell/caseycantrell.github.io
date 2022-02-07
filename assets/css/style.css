@@ -520,6 +520,7 @@ section {
   font-weight: bold;
   padding-top: 42px;
   padding-inline: 15px;
+  letter-spacing: 1px;
 }
 
 .portfolio-text {
@@ -643,24 +644,24 @@ section {
   transition: 1s;
   color: #ffffff;
 }
-.services .title {
-  margin-left: 80px;
-  font-weight: 700;
-  margin-bottom: 15px;
-  font-size: 18px;
-}
+
 .services .title a {
   color: #343a40;
+  font-size: 20px;
+  padding-left: 50px;
+  align-items: center;
+  text-align: center;
 }
 .services .title a:hover {
   color: #343a40;
 }
-.services .description {
-  margin-left: 80px;
-  line-height: 36px;
-  font-size: 14px;
-}
 
+#services-icons {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  padding-left: 100px;
+}
 /*--------------------------------------------------------------
 # Testimonials
 --------------------------------------------------------------*/
