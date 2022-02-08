@@ -70,7 +70,7 @@ h6 {
   padding: 0 15px;
   background: #040b14;
   overflow-y: auto;
-  box-shadow: 0px 0px 18px 6px rgba(0, 0, 0, 0.733);
+  box-shadow: 0px 0px 10px 4px rgba(0, 0, 0, 0.733);
 }
 
 #header .profile {
@@ -364,7 +364,7 @@ section {
   margin-right: 10px;
 }
 .about .content ul i {
-  font-size: 16px;
+  font-size: 24px;
   margin-right: 5px;
   color: #077ab0;
   line-height: 0;
@@ -425,7 +425,7 @@ section {
 # Skills
 --------------------------------------------------------------*/
 .skills {
-  box-shadow: 18px 18px 18px 19px rgba(0, 0, 0, 0.253);
+  box-shadow: 0px -6px 12px rgba(0, 0, 0, 0.137);
 }
 
 .skills .card {
@@ -470,7 +470,7 @@ section {
 --------------------------------------------------------------*/
 .portfolio {
   background-color: white;
-  box-shadow: 0 0 18px 0 rgba(0, 0, 0, 0.253);
+  box-shadow: 0px -6px 12px rgba(0, 0, 0, 0.137);
 }
 
 .portfolio .portfolio-item {
@@ -626,7 +626,7 @@ section {
 --------------------------------------------------------------*/
 .services {
   background-color: #deeaff85;
-  box-shadow: 0 0 18px 0 rgba(0, 0, 0, 0.253);
+  /* box-shadow: 0 0 18px 0 rgba(0, 0, 0, 0.253); */
 }
 
 .services .icon-box {
@@ -669,98 +669,19 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Testimonials
---------------------------------------------------------------*/
-.testimonials .testimonials-carousel,
-.testimonials .testimonials-slider {
-  overflow: hidden;
-}
-.testimonials .testimonial-item {
-  box-sizing: content-box;
-  text-align: center;
-  min-height: 320px;
-}
-.testimonials .testimonial-item .testimonial-img {
-  width: 90px;
-  border-radius: 50%;
-  margin: 0 auto;
-}
-.testimonials .testimonial-item h3 {
-  font-size: 18px;
-  font-weight: bold;
-  margin: 10px 0 5px 0;
-  color: #111;
-}
-.testimonials .testimonial-item h4 {
-  font-size: 14px;
-  color: #999;
-  margin: 0;
-}
-.testimonials .testimonial-item .quote-icon-left,
-.testimonials .testimonial-item .quote-icon-right {
-  color: #c3e8fa;
-  font-size: 26px;
-}
-.testimonials .testimonial-item .quote-icon-left {
-  display: inline-block;
-  left: -5px;
-  position: relative;
-}
-.testimonials .testimonial-item .quote-icon-right {
-  display: inline-block;
-  right: -5px;
-  position: relative;
-  top: 10px;
-}
-.testimonials .testimonial-item p {
-  font-style: italic;
-  margin: 0 15px 15px 15px;
-  padding: 20px;
-  background: #fff;
-  position: relative;
-  margin-bottom: 35px;
-  border-radius: 6px;
-  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
-}
-.testimonials .testimonial-item p::after {
-  content: "";
-  width: 0;
-  height: 0;
-  border-top: 20px solid #fff;
-  border-right: 20px solid transparent;
-  border-left: 20px solid transparent;
-  position: absolute;
-  bottom: -20px;
-  left: calc(50% - 20px);
-}
-.testimonials .swiper-pagination {
-  margin-top: 20px;
-  position: relative;
-}
-.testimonials .swiper-pagination .swiper-pagination-bullet {
-  width: 12px;
-  height: 12px;
-  background-color: #fff;
-  opacity: 1;
-  border: 1px solid #077ab0;
-}
-.testimonials .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #077ab0;
-}
-
-/*--------------------------------------------------------------
 # Contact
 --------------------------------------------------------------*/
 .contact {
   padding-bottom: 120px;
-  background-color: #deeaff85;
+  background-color: #fff;
+  box-shadow: 0px -6px 12px rgba(0, 0, 0, 0.137);
 }
 .contact .info {
   padding: 100px;
   align-items: center;
   background: #fff;
   width: auto;
-  box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
+  box-shadow: 4px 4px 24px 4px rgba(0, 0, 0, 0.226);
 }
 .contact .info i {
   font-size: 20px;
