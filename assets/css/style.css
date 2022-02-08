@@ -538,7 +538,7 @@ section {
   bottom: -60px;
   z-index: 3;
   position: absolute;
-  transition: all ease-in-out 1.2s;
+  transition: all ease-in-out 1s;
   display: flex;
   justify-content: center;
 }
