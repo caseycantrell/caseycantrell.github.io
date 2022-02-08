@@ -70,6 +70,7 @@ h6 {
   padding: 0 15px;
   background: #040b14;
   overflow-y: auto;
+  box-shadow: 4px 4px 24px 0 rgba(0, 0, 0, 0.733);
 }
 
 #header .profile {
@@ -246,6 +247,7 @@ h6 {
   height: 100vh;
   background: url("../img/background_pic.jpg") top center;
   background-size: cover;
+  box-shadow: 0 0 18px 0 rgba(0, 0, 0, 0.425);
 }
 #hero:before {
   content: "";
@@ -343,6 +345,10 @@ section {
 /*--------------------------------------------------------------
 # About
 --------------------------------------------------------------*/
+.about {
+  box-shadow: 0 0 18px 0 rgba(0, 0, 0, 0.253);
+}
+
 .about .content h3 {
   font-weight: 700;
   font-size: 26px;
@@ -432,6 +438,7 @@ section {
   align-items: center;
   border: 1px solid;
   transition: ease-in-out 0.2s;
+  /* box-shadow: 4px 4px 24px 2px rgba(0, 0, 0, 0.61); */
 }
 
 .skills .card-body p {
@@ -452,6 +459,8 @@ section {
 .skills .card-body:hover {
   background-color: #4fc7ff;
   transition: ease-in-out 0.3s;
+  transform: scale(1.04);
+  box-shadow: 12px 12px 24px 2px rgba(0, 0, 0, 0.61);
 }
 
 
@@ -465,6 +474,7 @@ section {
 .portfolio .portfolio-item {
   margin-bottom: 30px;
 }
+
 .portfolio #portfolio-flters {
   padding: 0;
   margin: 0 auto 35px auto;
@@ -499,6 +509,16 @@ section {
   overflow: hidden;
   z-index: 1;
 }
+
+.portfolio .portfolio-wrap:hover {
+  transition: 0.3s;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+  transform: scale(1.09);
+  box-shadow: 12px 12px 24px 2px rgba(0, 0, 0, 0.61);
+}
+
 .portfolio .portfolio-wrap::before {
   content: "";
   background: rgba(255, 255, 255, 0.399);
@@ -518,7 +538,7 @@ section {
   bottom: -60px;
   z-index: 3;
   position: absolute;
-  transition: all ease-in-out 0.8s;
+  transition: all ease-in-out 1.2s;
   display: flex;
   justify-content: center;
 }
@@ -530,7 +550,8 @@ section {
   transition: 0.3s;
   width: 50%;
   padding: 5px;
-  border: 1.75px solid black;
+  border: 1px solid black;
+  box-shadow: 12px 12px 24px 2px rgba(0, 0, 0, 0.61);
 }
 .portfolio .portfolio-wrap .portfolio-links a:hover {
   background: #2eafec;
@@ -550,7 +571,7 @@ section {
 
 .portfolio-card {
   background-color: #077ab0;
-  border: 2px solid;
+  border: 1px solid;
   height: 350px;
   text-align: center;
 }
@@ -622,6 +643,7 @@ section {
   font-size: 24px;
   line-height: 0;
   padding: 15px;
+  
 }
 
 .services .title {
@@ -727,12 +749,13 @@ section {
 .contact {
   padding-bottom: 120px;
   background-color: #deeaff85;
+  box-shadow: 0 0 18px 0 rgba(0, 0, 0, 0.253);
 }
 .contact .info {
-  padding: 80px;
+  padding: 100px;
   align-items: center;
   background: #fff;
-  width: 100%;
+  width: auto;
   box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
 }
 .contact .info i {
