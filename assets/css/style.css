@@ -70,7 +70,7 @@ h6 {
   padding: 0 15px;
   background: #040b14;
   overflow-y: auto;
-  box-shadow: 4px 4px 24px 0 rgba(0, 0, 0, 0.733);
+  box-shadow: 0px 0px 18px 6px rgba(0, 0, 0, 0.733);
 }
 
 #header .profile {
@@ -247,7 +247,7 @@ h6 {
   height: 100vh;
   background: url("../img/background_pic.jpg") top center;
   background-size: cover;
-  box-shadow: 0 0 18px 0 rgba(0, 0, 0, 0.425);
+  box-shadow: 0 0 18px 0 rgba(0, 0, 0, 0.253);
 }
 #hero:before {
   content: "";
@@ -345,9 +345,6 @@ section {
 /*--------------------------------------------------------------
 # About
 --------------------------------------------------------------*/
-.about {
-  box-shadow: 0 0 18px 0 rgba(0, 0, 0, 0.253);
-}
 
 .about .content h3 {
   font-weight: 700;
@@ -427,6 +424,10 @@ section {
 /*--------------------------------------------------------------
 # Skills
 --------------------------------------------------------------*/
+.skills {
+  box-shadow: 18px 18px 18px 19px rgba(0, 0, 0, 0.253);
+}
+
 .skills .card {
   border-radius: 8px;
 }
@@ -469,6 +470,7 @@ section {
 --------------------------------------------------------------*/
 .portfolio {
   background-color: white;
+  box-shadow: 0 0 18px 0 rgba(0, 0, 0, 0.253);
 }
 
 .portfolio .portfolio-item {
@@ -515,7 +517,7 @@ section {
   position: relative;
   overflow: hidden;
   z-index: 1;
-  transform: scale(1.09);
+  transform: scale(1.07);
   box-shadow: 12px 12px 24px 2px rgba(0, 0, 0, 0.61);
 }
 
@@ -578,6 +580,8 @@ section {
 
 .portfolio-title {
   color: white;
+  display: flex;
+  justify-content: center;
   font-size: 34px;
   font-weight: bold;
   padding-top: 42px;
@@ -622,6 +626,7 @@ section {
 --------------------------------------------------------------*/
 .services {
   background-color: #deeaff85;
+  box-shadow: 0 0 18px 0 rgba(0, 0, 0, 0.253);
 }
 
 .services .icon-box {
@@ -749,7 +754,6 @@ section {
 .contact {
   padding-bottom: 120px;
   background-color: #deeaff85;
-  box-shadow: 0 0 18px 0 rgba(0, 0, 0, 0.253);
 }
 .contact .info {
   padding: 100px;
