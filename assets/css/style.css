@@ -382,7 +382,9 @@ section {
 /*--------------------------------------------------------------
 # Skills
 --------------------------------------------------------------*/
-
+.skills .card {
+  border-radius: 8px;
+}
 .skills .card-body {
   background-color: #077ab0;
   border-radius: 8px;
@@ -582,24 +584,14 @@ section {
   line-height: 0;
   padding: 15px;
 }
-.services .icon:hover {
-  transition: 0.6s;
-  background: #4fc7ff;
-}
-.services .icon-box:hover .icon i {
-  transition: 0.6s;
-  color: #ffffff;
-}
 
 .services .title {
   color: #343a40;
   font-size: 20px;
+  font-weight: bold;
   padding-left: 30px;
   align-items: center;
   text-align: center;
-}
-.services .title:hover {
-  color: #343a40;
 }
 
 #services-icons {
