@@ -475,6 +475,10 @@ section {
   background-color: white;
   box-shadow: 0 -6px 12px -8px rgba(51, 51, 51, 0.575);
 }
+.portfolio p {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
 
 .portfolio .portfolio-item {
   margin-bottom: 30px;
