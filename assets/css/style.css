@@ -604,8 +604,7 @@ section {
 # Services
 --------------------------------------------------------------*/
 .services {
-  background-color: #deeaff85;
-  /* box-shadow: 0 0 18px 0 rgba(0, 0, 0, 0.253); */
+  background-color: #fff;
 }
 
 .services .icon-box {
@@ -618,16 +617,20 @@ section {
   width: 54px;
   height: 54px;
   background: #077ab0;
-  border-radius: 50%;
+  border-radius: 10px;
   transition: 0.6s;
   border: 0px solid #077ab0;
 }
+
+.services .icon:hover {
+  background-color: #00aeff;
+}
+
 .services .icon i {
   color: #ffffff;
   font-size: 24px;
   line-height: 0;
   padding: 15px;
-  
 }
 
 .services .title {
