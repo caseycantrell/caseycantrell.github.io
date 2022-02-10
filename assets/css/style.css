@@ -461,7 +461,7 @@ section {
   background-color: #4fc7ff;
   transition: ease-in 0.1s;
   transform: scale(1.03);
-  box-shadow: 12px 12px 20px 2px rgba(0, 0, 0, 0.61);
+  box-shadow: 8px 8px 12px 1px rgba(0, 0, 0, 0.61);
 }
 
 
@@ -493,7 +493,7 @@ section {
   position: relative;
   overflow: hidden;
   z-index: 1;
-  box-shadow: 12px 12px 24px 2px rgba(0, 0, 0, 0.61);
+  box-shadow: 8px 8px 12px 1px rgba(0, 0, 0, 0.61);
 }
 
 .portfolio .portfolio-wrap::before {
