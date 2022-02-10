@@ -459,8 +459,7 @@ section {
 
 .skills .card-body:hover {
   background-color: #4fc7ff;
-  transition: ease-in 0.1s;
-  transform: scale(1.03);
+  transition: ease-in 0.3s;
   box-shadow: 8px 8px 12px 1px rgba(0, 0, 0, 0.61);
 }
 
