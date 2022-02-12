@@ -152,7 +152,6 @@ h6 {
   margin-bottom: 0px;
   transition: 0.3s;
   font-size: 18px;
-  text-transform: uppercase;
 }
 
 @-webkit-keyframes hvr-pulse-grow {
@@ -268,6 +267,7 @@ h6 {
   font-weight: 700;
   line-height: 56px;
   color: #fff;
+  letter-spacing: 2px;
 }
 #hero p {
   color: #fff;
